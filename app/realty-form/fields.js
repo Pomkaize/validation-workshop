@@ -1,0 +1,12 @@
+const REALTY_FORM_FIELDS = {
+    NAME: 'NAME',
+    EMAIL: 'EMAIL',
+    PHONE: 'PHONE',
+};
+
+const REALTY_FORM_FIELDS_IDS = Object.keys(REALTY_FORM_FIELDS);
+
+module.exports = {
+    REALTY_FORM_FIELDS,
+    REALTY_FORM_FIELDS_IDS
+};

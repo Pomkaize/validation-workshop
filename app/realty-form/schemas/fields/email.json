@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": ["field"],
+  "properties": {
+    "field": {
+      "oneOf": [
+        {
+          "type": "string",
+          "format": "email"
+        },
+        {
+          "type": "string",
+          "maxLength": 0
+        }
+      ]
+    }
+  }
+}
+
